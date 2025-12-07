@@ -3,9 +3,9 @@ from telebot import types
 from datetime import datetime
 
 # ==== НАСТРОЙКИ - ВСТАВЬТЕ СВОИ ДАННЫЕ СЮДА ====
-BOT_TOKEN = "8273041347:AAHoFD9Snn5DuHiJfUQxc9KRzGvetywaW5I"  # Токен от BotFather
-ARCHIVE_CHAT_ID = -5010990620  # ID вашей приватной группы для архива
-PUBLIC_GROUP_ID = -1003359338889  # ID вашей публичной группы (где живёт бот)
+BOT_TOKEN = "bot-token"  # Токен от BotFather
+ARCHIVE_CHAT_ID = dfrt  # ID вашей приватной группы для архива
+PUBLIC_GROUP_ID = -1003359345889  # ID вашей публичной группы (где живёт бот)
 
 # Создаём бота
 bot = telebot.TeleBot(BOT_TOKEN)
